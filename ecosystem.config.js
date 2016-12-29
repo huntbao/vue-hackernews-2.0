@@ -25,7 +25,7 @@ module.exports = {
       user : "root",
       host : "59.111.99.56",
       ref  : "origin/master",
-      repo : "localhost/Users/huntbao/vue-hackernews-2.0/.git",
+      repo : "https://github.com/huntbao/vue-hackernews-2.0.git",
       path : "/home/vue",
       "post-deploy" : "npm install && npm run build && pm2 startOrRestart ecosystem.config.js --env production"
     },
